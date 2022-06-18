@@ -1,0 +1,187 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.wrap {
+	width: 100%;
+	height: 100vh;
+
+	display: flex;
+	align-items: center;
+	/*justify-content: center;*/
+	flex-direction: column;
+}
+
+.keyboard {
+	width: 75%;
+	height: 540px;
+
+	background-color: darkgrey;
+	border-radius: 15px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	box-shadow: 0px 5px 0px grey;
+
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.keyboard_row {
+	display: flex;
+}
+
+.keyboard_row_top {
+	margin-top: 25px;
+}
+
+.btn_fn {
+	padding: 15px;
+	margin: 10px;
+
+	background-color: lightgrey;
+	border-radius: 5px;
+	box-shadow: 0px 2px 5px #555;
+
+	color: whitesmoke;
+	font-weight: 900;
+}
+
+.btn {
+	padding: 25px 26px;
+	margin: 10px;
+
+	background-color: lightgrey;
+	border-radius: 5px;
+	box-shadow: 0px 2px 5px #555;
+
+	color: whitesmoke;
+	font-weight: 900;
+}
+
+.btn_three {
+	padding: 25px 26px;
+}
+
+.btn_four {
+	padding: 25px 23.5px;
+}
+
+.btn_five {
+	padding: 25px 25px;
+}
+
+.btn_six {
+	padding: 25px 18.5px;
+}
+
+.tab {
+	width: 100px;
+	text-align: center;
+}
+
+.capsLk {
+	width: 150px;
+	text-align: center;
+}
+
+.enter {
+	width: 150px;
+	text-align: center;
+}
+
+.shift {
+	width: 175px;
+	text-align: center;
+}
+
+.space {
+	width: 350px;
+}
+
+.top_down {
+	display: flex;
+	flex-direction: column;
+}
+
+.btn_top {
+	padding: 2px 25px;
+}
+
+.provider {
+	width: 10px;
+	height: 125px;
+
+	background-color: #333;
+}
+
+.icon {
+	width: 70px;
+	height: 70px;
+}
+
+.btn_keyboard_mouse {
+	line-height: 50px;
+
+	background-color: #555;
+	border-radius: 25px;
+
+	font-size: 25px;
+	font-weight: 900;
+	color: white;
+
+	padding: 0px 25px;
+	position: absolute;
+	bottom: 35px;
+
+	cursor: pointer;
+	transition: .1s linear;
+}
+
+.btn_keyboard_mouse:hover {
+	background-color: #333;
+}
+
+.mouse {
+	width: 300px;
+	height: 500px;
+
+	border-radius: 75px;
+	background-color: darkgrey;
+	box-shadow: 0 2px 5px #555;
+
+	position: relative;
+}
+
+.mouse_btn {
+	display: flex;
+}
+
+.left_btn {
+	width: 50%;
+	height: 150px;
+
+	background-color: #777;
+	border-top-left-radius: 75px;
+	border-right: 2px solid black;
+}
+
+.right_btn {
+	width: 50%;
+	height: 150px;
+
+	background-color: #777;
+	border-top-right-radius: 75px;
+	border-left: 2px solid black;
+}
+
+.icon_apple {
+	width: 85px;
+	height: 85px;
+
+	margin-top: 200px;
+	margin-left: 110px;
+}
+

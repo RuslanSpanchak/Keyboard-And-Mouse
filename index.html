@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>AW 7</title>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js" integrity="sha512-n/4gHW3atM3QqRcbCn6ewmpxcLAHGaDjpEBu4xZd47N0W2oQ+6q7oc3PXstrJYXcbNU1OHdQ1T7pAP+gi5Yu8g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</head>
+<body>
+
+	<div class="wrap" id="wrap">
+
+		<div class="provider"></div>
+		
+		<div class="keyboard">
+			
+			<div class="keyboard_row keyboard_row_top">
+				
+				<div class="btn_fn">Esc</div>
+				<div class="btn_fn">F1</div>
+				<div class="btn_fn">F2</div>
+				<div class="btn_fn">F3</div>
+				<div class="btn_fn">F4</div>
+				<div class="btn_fn">F5</div>
+				<div class="btn_fn">F6</div>
+				<div class="btn_fn">F7</div>
+				<div class="btn_fn">F8</div>
+				<div class="btn_fn">F9</div>
+				<div class="btn_fn">F10</div>
+				<div class="btn_fn">F11</div>
+				<div class="btn_fn">F12</div>
+				<div class="btn_fn">Insert</div>
+				<div class="btn_fn">PrtSc</div>
+				<div class="btn_fn">Delete</div>
+
+			</div>
+
+			<div class="keyboard_row">
+				
+				<div class="btn" id="btn`">`</div>
+				<div class="btn" id="btn1">1</div>
+				<div class="btn" id="btn2">2</div>
+				<div class="btn" id="btn3">3</div>
+				<div class="btn" id="btn4">4</div>
+				<div class="btn" id="btn5">5</div>
+				<div class="btn" id="btn6">6</div>
+				<div class="btn" id="btn7">7</div>
+				<div class="btn" id="btn8">8</div>
+				<div class="btn" id="btn9">9</div>
+				<div class="btn" id="btn0">0</div>
+				<div class="btn" id="btn-">-</div>
+				<div class="btn" id="btn=">=</div>
+				<div class="btn" id="btnBackspace">Backspace</div>
+
+			</div>
+
+			<div class="keyboard_row keyboard_row_three">
+				
+				<div class="btn btn_three tab" id="btnTab">Tab</div>
+				<div class="btn btn_three" id="btnQ">Q</div>
+				<div class="btn btn_three" id="btnW">W</div>
+				<div class="btn btn_three" id="btnE">E</div>
+				<div class="btn btn_three" id="btnR">R</div>
+				<div class="btn btn_three" id="btnT">T</div>
+				<div class="btn btn_three" id="btnY">Y</div>
+				<div class="btn btn_three" id="btnU">U</div>
+				<div class="btn btn_three" id="btnI">I</div>
+				<div class="btn btn_three" id="btnO">O</div>
+				<div class="btn btn_three" id="btnP">P</div>
+				<div class="btn btn_three" id="btn[">[</div>
+				<div class="btn btn_three" id="btn]">]</div>
+				<div class="btn btn_three" id="btn\">\</div>
+
+			</div>
+
+			<div class="keyboard_row">
+				
+				<div class="btn btn_four capsLk" id="CapsLk">CapsLk</div>
+				<div class="btn btn_four" id="btnA">A</div>
+				<div class="btn btn_four" id="btnS">S</div>
+				<div class="btn btn_four" id="btnD">D</div>
+				<div class="btn btn_four" id="btnF">F</div>
+				<div class="btn btn_four" id="btnG">G</div>
+				<div class="btn btn_four" id="btnH">H</div>
+				<div class="btn btn_four" id="btnJ">J</div>
+				<div class="btn btn_four" id="btnK">K</div>
+				<div class="btn btn_four" id="btnL">L</div>
+				<div class="btn btn_four" id="btn;">;</div>
+				<div class="btn btn_four" id="btn'">'</div>
+				<div class="btn btn_four enter" id="btnenter">Enter</div>
+
+			</div>
+
+			<div class="keyboard_row">
+				
+				<div class="btn btn_five shift" id="btnShift">Shift</div>
+				<div class="btn btn_five" id="btnZ">Z</div>
+				<div class="btn btn_five" id="btnX">X</div>
+				<div class="btn btn_five" id="btnC">C</div>
+				<div class="btn btn_five" id="btnV">V</div>
+				<div class="btn btn_five" id="btnB">B</div>
+				<div class="btn btn_five" id="btnN">N</div>
+				<div class="btn btn_five" id="btnM">M</div>
+				<div class="btn btn_five" id="btn,">,</div>
+				<div class="btn btn_five" id="btn.">.</div>
+				<div class="btn btn_five" id="btn/">/</div>
+				<div class="btn btn_five shift" id="btnShift">Shift</div>
+
+			</div>
+
+			<div class="keyboard_row">
+				
+				<div class="btn btn_six" id="btnCtrl">Ctrl</div>
+				<div class="btn btn_six" id="btnFn">Fn</div>
+				<img src="./img/free-icon-windows-882702.png" class="btn icon" id="btnWindows">
+				<div class="btn btn_six" id="btnAlt">Alt</div>
+				<div class="btn btn_six space" id="btnspace"></div>
+				<div class="btn btn_six" id="btnAlt">Alt</div>
+				<img src="./img/file.png" class="btn icon" id="btnInfo">
+				<div class="btn btn_six" id="btnCtrl">Ctrl</div>
+				<div class="btn btn_six" id="btnleft">⯇</div>
+
+				<div class="top_down">
+
+					<div class="btn btn_top" id="btntop">⯅</div>
+					<div class="btn btn_top" id="btndown">⯆</div>
+
+				</div>
+				<div class="btn btn_six" id="btnright">⯈</div>
+
+			</div>
+
+		</div>
+
+		<div class="mouse" id="mouse">
+			
+			<div class="mouse_btn">
+				
+				<div class="left_btn" id="left_btn"></div>
+				<div class="right_btn" id="right_btn"></div>
+
+			</div>
+
+			<img src="./img/apple.png" class="icon_apple">
+
+		</div>
+
+		<div class="btn_keyboard_mouse" id="btn_difference"></div>
+
+	</div>
+
+	<script type="text/javascript" src="app.js">
+		
+
+
+	</script>
+
+</body>
+</html>
